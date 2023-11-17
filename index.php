@@ -1,12 +1,5 @@
 <?php
-/**
- * 轻奢极简，极速响应，记录每日新鲜事
- *
- * @package 🌻 Sunny
- * @author 火喵酱
- * @version 2023.开源版
- * @link https://www.mmbkz.cn
- */
+
 ?>
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <!DOCTYPE HTML>
@@ -17,7 +10,7 @@
     define("XNAME", ($this->user->hasLogin() ? $this->user->screenName : $this->remember('author', true)));
     define("XMAIL", $this->user->hasLogin() ? $this->user->mail : $this->remember('mail', true));
     define("XSITE", $this->user->hasLogin() ? $this->user->url : $this->remember('url', true));
-    define("MMBKZ", 'Powered by<a href="https://typecho.org/" target="_blank" cat_title="使用Typecho建站"> Typecho </a> & <a href="https://store.mmbkz.cn" target="_blank" cat_title="基于🌻Sunny1.0主题"> Sunny </a>');
+    define("MMBKZ", 'Powered by<a href="https://ins.tsmoe.com/" target="_blank" cat_title="⭐"> Unilove </a> & <a href="https://ins.tsmoe.com" target="_blank" cat_title="⭐"> UNILOVE </a>');
 ?>
 <html lang="zh-CN" class="<?php echo darkmode()?'darkmode':'';?>">
     <head>
